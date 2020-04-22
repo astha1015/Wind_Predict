@@ -1,3 +1,5 @@
+                                                                                                              April 21, 2020
+
 This is a high altitude wind prediction application using airplane data. 
 
 Enclosed Components:
@@ -20,3 +22,6 @@ Setup:
 
 * Run the python script for prediction using:
           python do_predict.py
+
+
+Contact Corresponding Author and PI: Md Tamjidul Hoque, Email: thoque@uno.edu
