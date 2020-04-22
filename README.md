@@ -11,11 +11,12 @@ Prerequisites:
 * scikit-learn
 * pickle
 * sys
+* Archiver (https://archiverapp.com)
 
 Setup:
-* Extract all the zipped files and concatenate them together using following:
-          On windows: copy /B *.zip output.zip
-          On Linux/: cat *.zip > output.zip
+* Clone the project or download in a local directory
+
+* Open all the .split files using archiver app and combine to a single zipped file. Finally, extract the decompressed file within the same location.
 
 * Run the python script for prediction using:
           python do_predict.py
