@@ -1,4 +1,4 @@
-                                                                                                              April 21, 2020
+April 21, 2020
 
 This is a high altitude wind prediction application using airplane data. 
 
