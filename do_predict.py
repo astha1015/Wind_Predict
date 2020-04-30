@@ -26,11 +26,13 @@ def get_floats(source):
 
 clas = pickle.load(open('classifiers/classifier_red.pkl', 'rb') )
 
-arguments = sys.argv
-
-features = [get_floats(x) for x in arguments ]
+arguments = sys.argv[1:]
 
 
-print(clas.predict(features) )
+#print(arguments)
+#features = [get_floats(x) for x in arguments ]
+#features = [a for a in features ] 
+features = [float(x) for x in arguments[0].split(",") ] 
+print("Calculated Wind Speed:",clas.predict([ features ] ) )
 
 
