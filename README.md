@@ -21,7 +21,7 @@ Setup:
 * Open all the .split files using archiver app and combine to a single zipped file. Finally, extract the decompressed file within the same location.
 
 * Run the python script for prediction using:
-          python do_predict.py
+          python do_predict.py (pass arguments -> samples available in 'testdata')
 
 
 Contact Corresponding Author and PI: Md Tamjidul Hoque, Email: thoque@uno.edu
